@@ -1,0 +1,17 @@
+﻿@import './colors.scss';
+@import './breakpoints.scss';
+
+.flex-x-center {
+  display: flex;
+  justify-content: center;
+}
+
+.flex-y-center{
+  display: flex;
+  align-items: center;
+}
+
+.flex-center-center {
+  @extend .flex-x-center;
+  @extend .flex-y-center;
+}

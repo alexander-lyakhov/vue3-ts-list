@@ -3,8 +3,8 @@ html, body, #app {
 }
 
 body {
-  color: #e0e0e0;
-  background: #404040;
+  color: $grey-01;
+  background: $bg-body;
 }
 
 #app {
@@ -35,11 +35,4 @@ a {
 
 .invisible {
   display: none!important;
-}
-
-h1 {
-  font-family: 'FuturaFuturisCondBoldC';
-  font-weight: 700;
-  font-size: 60px;
-  letter-spacing: -0.02em;
 }
